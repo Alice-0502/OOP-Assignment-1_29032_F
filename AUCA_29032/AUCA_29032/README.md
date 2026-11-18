@@ -1,29 +1,26 @@
-# AUCA_ID – School Management System (console, Java OOP)
+# AUCA_29032 – School Management System (console, Java OOP)
 
 ## Run it
 
 Requires JDK 17 or newer.
 
-**Terminal (from inside the `AUCA_ID` folder):**
+**Terminal (from inside the `AUCA_29032` folder):**
 
 ```bash
 # Windows (PowerShell)
 javac -d out (Get-ChildItem -Recurse src -Filter *.java).FullName
 java -cp out com.auca.main.Main
 
-# macOS / Linux
-javac -d out $(find src -name "*.java")
-java -cp out com.auca.main.Main
-```
 
-**IntelliJ IDEA:** File → Open → `AUCA_ID`. Right-click `src` → *Mark Directory as* → *Sources Root*.
+
+**IntelliJ IDEA:** File → Open → `AUCA_29032`. Right-click `src` → *Mark Directory as* → *Sources Root*.
 Run `com.auca.main.Main`.
 **Eclipse / NetBeans:** create a Java project on this folder with `src` as the source folder, then run `Main`.
 
 ## Package tree
 
 ```
-AUCA_ID/src/com/auca/
+AUCA_29032/src/com/auca/
 ├── interfaces/     Identifiable, Registrable
 ├── abstracts/      Person, AcademicMember
 ├── student/        Student            (Person -> AcademicMember -> Student)
